@@ -64,11 +64,11 @@ class NetworkAnimation {
     this.particles.forEach(particle => {
       this.ctx.beginPath();
       this.ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
-      this.ctx.fillStyle = 'rgba(34, 197, 94, 0.6)';
+      this.ctx.fillStyle = 'rgba(32, 211, 238, 0.6)';
       this.ctx.fill();
       
       this.ctx.shadowBlur = 10;
-      this.ctx.shadowColor = 'rgba(34, 197, 94, 0.8)';
+      this.ctx.shadowColor = 'rgba(32, 211, 238, 0.8)';
     });
     
     this.ctx.shadowBlur = 0;
